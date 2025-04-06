@@ -40,7 +40,8 @@
 
 ## Challenges: 
 
-##Challenge 1: After creating my EC2, I could not 'Instance Connect". 
+##Challenge 1: After creating my EC2, I could not 'Instance Connect".
+
 ![image](https://github.com/user-attachments/assets/b3a79ab3-fe4e-41af-8ac2-5b7723e4d739)
 
 I had to troubleshoot & did the following: 
@@ -48,17 +49,22 @@ I had to troubleshoot & did the following:
 2. I modified my Route Table & selected the new Internet gateyway as the target
 3. Ensured that my Auto-Assign Public IP is Enabled
 4.  The troubleshooting was successful & allowed me to 'Instance connect'. Here:
+5.  
  ![image](https://github.com/user-attachments/assets/14d449a8-f5bd-4754-83c6-b5f86acedd3c)
 
-## Challenge 2: After downloading and enabling Ngix on my EC2, my IP was not
-7. ![image](https://github.com/user-attachments/assets/2ab65685-354a-44bf-9b63-001ab8612925)
+## Challenge 2: After downloading and enabling Ngix on my EC2, my IP was not not loading. Here:
+
+ ![image](https://github.com/user-attachments/assets/2ab65685-354a-44bf-9b63-001ab8612925)
    
-9. I had to reconfigure my Security groups to allows HTTP Traffic. Here
+ I had to reconfigure my Security groups to allow HTTP Traffic on port 80. Here:
+ 
  ![image](https://github.com/user-attachments/assets/de84bfa7-c4c5-4947-a96b-b87b51d3193c)
 
-   The success was a welcome page of Ngix
+ After the reconfiguration, I received a successful welcome page from Nginx. Here: 
+
+ 
  ![image](https://github.com/user-attachments/assets/183e44af-4e2b-44ec-bf7c-e0c71defc177)
- ![image](https://github.com/user-attachments/assets/ee74a2f3-ac9b-446d-864a-9d7e5da0ae1c)
+
 
 ### Challange 3
  Did some test with curl:
@@ -66,15 +72,19 @@ I had to troubleshoot & did the following:
 
 
 
-Successful: 
+## The success of the Project: Here: 
+
 ![image](https://github.com/user-attachments/assets/fbec3361-7a93-444e-9997-1bb539251a62)
 
 
-Target group: healthy
+ ![image](https://github.com/user-attachments/assets/ee74a2f3-ac9b-446d-864a-9d7e5da0ae1c)
+ 
+Target group: Healthy Check. Here:
+
 ![image](https://github.com/user-attachments/assets/bb0a5aa9-caaa-40eb-a831-3a1f0a233412)
 
 
-ELB PAGE:
+ELB PAGE RESPONSE:
 ![image](https://github.com/user-attachments/assets/94ad727e-c823-4815-8e1c-34b82b132ce0)
 
 
