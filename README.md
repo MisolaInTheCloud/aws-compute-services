@@ -7,7 +7,7 @@
 - Created & Configured a customized Security Group named 'm4ace SG':
   - Inbound:
     - HTTP (80) — 0.0.0.0/0
-    - SSH (443) — My IP
+    - SSH (22) — My IP
     - 
 ![image](https://github.com/user-attachments/assets/b4f95266-9956-48a5-84ef-6fecbfa26882)
 ![image](https://github.com/user-attachments/assets/75575ba5-1016-4973-9c5a-112d397e5422)
@@ -25,7 +25,7 @@
 - Listener: HTTP on port 80
 - Attached to a Target Groupb
 - Health Check Path: `/`
-- DNS Name: `web-alb-123456.us-east-1.elb.amazonaws.com`
+- DNS Name: `m4testload-328246389.us-east-1.elb.amazonaws.com`
 
 ### Auto Scaling Group Configuration
 
@@ -41,7 +41,7 @@
 
 ## Challenges: 
 
-##Challenge 1: After creating my EC2, I could not 'Instance Connect".
+### Challenge 1: After creating my EC2, I could not 'Instance Connect".
 
 ![image](https://github.com/user-attachments/assets/b3a79ab3-fe4e-41af-8ac2-5b7723e4d739)
 
@@ -53,7 +53,7 @@ I had to troubleshoot & did the following:
  
  ![image](https://github.com/user-attachments/assets/14d449a8-f5bd-4754-83c6-b5f86acedd3c)
 
-## Challenge 2: After downloading and enabling Ngix on my EC2, my IP was not not loading. Here:
+### Challenge 2: After downloading and enabling Ngix on my EC2, my IP was not not loading. Here:
 
  ![image](https://github.com/user-attachments/assets/2ab65685-354a-44bf-9b63-001ab8612925)
    
