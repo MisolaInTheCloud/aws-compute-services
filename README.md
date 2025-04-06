@@ -8,6 +8,7 @@
   - Inbound:
     - HTTP (80) — 0.0.0.0/0
     - SSH (443) — My IP
+    - 
 ![image](https://github.com/user-attachments/assets/b4f95266-9956-48a5-84ef-6fecbfa26882)
 ![image](https://github.com/user-attachments/assets/75575ba5-1016-4973-9c5a-112d397e5422)
 
@@ -49,7 +50,7 @@ I had to troubleshoot & did the following:
 2. I modified my Route Table & selected the new Internet gateyway as the target
 3. Ensured that my Auto-Assign Public IP is Enabled
 4.  The troubleshooting was successful & allowed me to 'Instance connect'. Here:
-5.  
+ 
  ![image](https://github.com/user-attachments/assets/14d449a8-f5bd-4754-83c6-b5f86acedd3c)
 
 ## Challenge 2: After downloading and enabling Ngix on my EC2, my IP was not not loading. Here:
@@ -67,7 +68,8 @@ I had to troubleshoot & did the following:
 
 
 ### Challange 3
- Did some test with curl:
+ Test to see my Load Balancer & Auto scaling groups in Action. This was done with "curl IP address of elastic load balancer". Here: 
+ 
  ![image](https://github.com/user-attachments/assets/713c67f9-308d-414d-a699-8bd34f281f1b)
 
 
@@ -76,6 +78,7 @@ I had to troubleshoot & did the following:
 
 ![image](https://github.com/user-attachments/assets/fbec3361-7a93-444e-9997-1bb539251a62)
 
+Auto Scaling group Set-up. Here; 
 
  ![image](https://github.com/user-attachments/assets/ee74a2f3-ac9b-446d-864a-9d7e5da0ae1c)
  
@@ -87,5 +90,15 @@ Target group: Healthy Check. Here:
 ELB PAGE RESPONSE:
 ![image](https://github.com/user-attachments/assets/94ad727e-c823-4815-8e1c-34b82b132ce0)
 
+## Summary
+This project successfully demonstrates the use of:
+
+- EC2 instances with Nginx web servers
+
+- Secure networking via custom security groups
+
+- Load balancing with ALB
+
+- Resilient scaling via Auto Scaling Groups
 
 
