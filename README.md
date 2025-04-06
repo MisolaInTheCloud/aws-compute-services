@@ -15,7 +15,7 @@
   - Inbound:
     - HTTP (80) — 0.0.0.0/0
     - SSH (22) — My IP
-    - 
+  
 ![image](https://github.com/user-attachments/assets/b4f95266-9956-48a5-84ef-6fecbfa26882)
 ![image](https://github.com/user-attachments/assets/75575ba5-1016-4973-9c5a-112d397e5422)
 
