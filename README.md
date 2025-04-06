@@ -1,4 +1,11 @@
-# aws-compute-services
+# aws-compute-services: This assignment demonstrates the deployment of scalable web infrastructure using AWS EC2, Auto Scaling Groups, and an Application Load Balancer (ALB), all within the Free Tier.
+
+##  Objectives
+
+- Launch and configure an EC2 instance with a custom security group
+- Install and test Nginx web server
+- Set up an Auto Scaling Group linked to an ALB
+- Document the setup process and troubleshoot issues
 
 ## Step 1: Launch EC2 Instance
 
@@ -13,6 +20,9 @@
 ![image](https://github.com/user-attachments/assets/75575ba5-1016-4973-9c5a-112d397e5422)
 
 ## Step 2: Install a web server Nginx on the instance.
+
+- Installed Nginx with `sudo yum install nginx -y
+- Tested with: curl http://localhost
 
 ![image](https://github.com/user-attachments/assets/3dcac988-01f5-4382-856a-7c6933b0d920)
 ![image](https://github.com/user-attachments/assets/df399ade-ceab-453a-9f20-c4b111bc6023)
